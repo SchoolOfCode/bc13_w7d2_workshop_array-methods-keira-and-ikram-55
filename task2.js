@@ -7,21 +7,18 @@ let animals = [
     "horse",
     "basalisk",
   ];
-  
-let bListAnimals = animals.filter(filteredB)
+
+//Version 1
+/*let bListAnimals = animals.filter(filteredB)
   console.log(bListAnimals);
 
 function filteredB(word){
   return word.startsWith("b")
-}
+}*/
 
-
-
-/*animals.filter((element) => filteredB(element))
-console.log(bListAnimals);
-
-
-}
+//Simplified version
+let bListAnimals = animals.filter(word => word.startsWith("b"))
+console.log(bListAnimals)
 
 //start function
 // use .filter and add the function within it
