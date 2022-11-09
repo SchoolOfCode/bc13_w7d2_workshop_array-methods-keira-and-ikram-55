@@ -62,3 +62,7 @@ function number60(sixty){
         return false;
     }
 } 
+
+//90
+let numbersNinety = someNumbers.some(placeholder => placeholder % 60 == 0)
+console.log('here', numbersNinety);
